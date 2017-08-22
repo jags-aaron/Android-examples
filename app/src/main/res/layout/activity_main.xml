@@ -12,6 +12,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical">
 
         <Button
@@ -33,6 +34,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/viewpagertabbed"
+            android:onClick="onOptionButtonSelected"/>
+
+        <Button
+            android:id="@+id/btnRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_view"
+            android:onClick="onOptionButtonSelected"/>
+
+        <Button
+            android:id="@+id/btnIntents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intents_and_intentfilters"
             android:onClick="onOptionButtonSelected"/>
 
     </LinearLayout>

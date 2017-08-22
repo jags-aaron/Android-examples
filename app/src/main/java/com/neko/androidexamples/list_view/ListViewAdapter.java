@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * Created by N3K0 on 8/22/17.
  */
 
-public class ListViewAdapter extends BaseAdapter {
+class ListViewAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;
     private ArrayList<Model> modelsToBeFilled;
@@ -103,6 +103,9 @@ public class ListViewAdapter extends BaseAdapter {
         return convertView;
     }
 
+    /**
+     * Callback to tell Activity when DeleteButton was clicked
+     */
     interface OnListViewDeleteButtonClicked {
         void onDeleteButtonClicked(int position);
     }

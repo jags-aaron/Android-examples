@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:fullBackupContent="true"
         android:theme="@style/AppTheme">
 
         <!-- MAIN ACTIVITY -->
@@ -46,6 +46,31 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
+        <!-- RECYCLER VIEW ACTIVITY -->
+        <activity
+            android:name=".recycler_view.RecyclerViewActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- ITENT ACTIVITY -->
+        <activity
+            android:name=".intent_and_intentfilters.IntentActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <service
+            android:name=".intent_and_intentfilters.explicit.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".intent_and_intentfilters.explicit.ExplicitActivity"></activity>
     </application>
 
 </manifest>

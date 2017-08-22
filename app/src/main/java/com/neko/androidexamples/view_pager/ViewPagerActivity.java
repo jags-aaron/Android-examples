@@ -3,9 +3,6 @@ package com.neko.androidexamples.view_pager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-
-
 import com.neko.androidexamples.R;
 import com.neko.androidexamples.common.fragments.FisrtFragment;
 import com.neko.androidexamples.common.fragments.SecondFragment;

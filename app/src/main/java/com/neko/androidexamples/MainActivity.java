@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.neko.androidexamples.intent_and_intentfilters.IntentActivity;
 import com.neko.androidexamples.list_view.ListViewActivity;
+import com.neko.androidexamples.recycler_view.RecyclerViewActivity;
 import com.neko.androidexamples.view_pager.ViewPagerActivity;
 import com.neko.androidexamples.view_pager_with_tabs.ViewPagerTabbedActivity;
 
@@ -20,21 +22,29 @@ public class MainActivity extends AppCompatActivity {
     public void onOptionButtonSelected(View view) {
         switch (view.getId()){
             case R.id.btnListView:
-                // calling listView
-                startActivity(ListViewActivity.class);
+                // LIST VIEW
+                startNewActivity(ListViewActivity.class);
                 break;
             case R.id.btnViewPager:
-                // calling ViewPager
-                startActivity(ViewPagerActivity.class);
+                // VIEW PAGER
+                startNewActivity(ViewPagerActivity.class);
                 break;
             case R.id.btnViewPagerTabbed:
-                // calling ViewPagerTabbed
-                startActivity(ViewPagerTabbedActivity.class);
+                // VIEW PAGER WITH TABS
+                startNewActivity(ViewPagerTabbedActivity.class);
+                break;
+            case R.id.btnRecyclerView:
+                // RECYCLER VIEW
+                startNewActivity(RecyclerViewActivity.class);
+                break;
+            case R.id.btnIntents:
+                // RECYCLER VIEW
+                startNewActivity(IntentActivity.class);
                 break;
         }
     }
 
-    private void startActivity(Class classToBeCalled){
+    private void startNewActivity(Class classToBeCalled){
         Intent intent = new Intent(this, classToBeCalled);
         startActivity(intent);
     }

@@ -1,12 +1,17 @@
 <resources>
     <string name="app_name">AndroidExamples</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="listview">ListView</string>
-    <string name="viewpager">ViewPager</string>
-    <string name="viewpagertabbed">ViewPagerTabbed</string>
+    <string name="listview">List View</string>
+    <string name="viewpager">View Pager</string>
+    <string name="viewpagertabbed">View Pager Tabbed</string>
     <string name="fragment_3">fragment 3</string>
     <string name="fragment_1">Fragment 1</string>
     <string name="fragment_2">fragment 2</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="intents_and_intentfilters">Intents and IntentFilters</string>
+    <string name="explicit_intent">Explicit intent</string>
+    <string name="implicit_intent">Implicit intent</string>
+    <string name="explicit_explanation">Specify the component to start by name (the fully-qualified class name). You\'ll typically use an explicit intent to start a component in your own app, because you know the class name of the activity or service you want to start. For example, you can start a new activity in response to a user action or start a service to download a file in the background.   (IF YOU KNOW THE COMPONENT O SERVICE TO CALL)</string>
+    <string name="implicit_explanation">Do not name a specific component, but instead declare a general action to perform, which allows a component from another app to handle it. For example, if you want to show the user a location on a map, you can use an implicit intent to request that another capable app show a specified location on a map.   (IF YOU WANT THAT THE SYSTEM SHOWS TO THE USER SOME OPTIONS TO PERFORM AN ACTION)</string>
+    <string name="start_service">Start Service</string>
 </resources>

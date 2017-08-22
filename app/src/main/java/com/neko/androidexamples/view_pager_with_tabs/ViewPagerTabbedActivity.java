@@ -14,7 +14,7 @@ import com.neko.androidexamples.view_pager.PagerAdapter;
 /**
  * Class that shows a ViewPager that interacts with TabLayout
  *
- * NOTE: Design Support Library must be implemented in Gradle to user TabLayout
+ * NOTE: Design Support Library must be implemented in Gradle to use TabLayout
  * @link https://developer.android.com/training/material/design-library.html#CreateFAB
  */
 public class ViewPagerTabbedActivity extends AppCompatActivity {
