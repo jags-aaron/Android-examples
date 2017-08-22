@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.neko.androidexamples.list_view.ListViewActivity;
+import com.neko.androidexamples.view_pager.ViewPagerActivity;
+import com.neko.androidexamples.view_pager_with_tabs.ViewPagerTabbedActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ListViewActivity.class);
                 break;
             case R.id.btnViewPager:
+                // calling ViewPager
+                startActivity(ViewPagerActivity.class);
+                break;
+            case R.id.btnViewPagerTabbed:
+                // calling ViewPagerTabbed
+                startActivity(ViewPagerTabbedActivity.class);
                 break;
         }
     }
