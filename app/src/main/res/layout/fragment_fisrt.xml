@@ -3,12 +3,13 @@
     android:layout_height="match_parent"
     android:background="#28269f">
 
-    <TextView
+    <Button
+        android:id="@+id/btnSayHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="25sp"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:text="@string/fragment_1" />
 
 </FrameLayout>

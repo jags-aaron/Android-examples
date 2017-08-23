@@ -50,6 +50,13 @@
             android:text="@string/intents_and_intentfilters"
             android:onClick="onOptionButtonSelected"/>
 
+        <Button
+            android:id="@+id/btnFragments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragments"
+            android:onClick="onOptionButtonSelected"/>
+
     </LinearLayout>
 
 

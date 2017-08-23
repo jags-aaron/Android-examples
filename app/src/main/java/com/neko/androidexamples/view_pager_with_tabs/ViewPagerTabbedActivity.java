@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.neko.androidexamples.R;
-import com.neko.androidexamples.common.fragments.FisrtFragment;
+import com.neko.androidexamples.common.fragments.FirstFragment;
 import com.neko.androidexamples.common.fragments.SecondFragment;
 import com.neko.androidexamples.common.fragments.ThirdFragment;
 import com.neko.androidexamples.view_pager.PagerAdapter;
@@ -33,7 +33,7 @@ public class ViewPagerTabbedActivity extends AppCompatActivity {
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());
 
         // Adding Fragments to Pager Adapter
-        pagerAdapter.addFragment(new FisrtFragment());
+        pagerAdapter.addFragment(new FirstFragment());
         pagerAdapter.addFragment(new SecondFragment());
         pagerAdapter.addFragment(new ThirdFragment());
 

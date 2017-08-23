@@ -14,4 +14,11 @@
     <string name="explicit_explanation">Specify the component to start by name (the fully-qualified class name). You\'ll typically use an explicit intent to start a component in your own app, because you know the class name of the activity or service you want to start. For example, you can start a new activity in response to a user action or start a service to download a file in the background.   (IF YOU KNOW THE COMPONENT O SERVICE TO CALL)</string>
     <string name="implicit_explanation">Do not name a specific component, but instead declare a general action to perform, which allows a component from another app to handle it. For example, if you want to show the user a location on a map, you can use an implicit intent to request that another capable app show a specified location on a map.   (IF YOU WANT THAT THE SYSTEM SHOWS TO THE USER SOME OPTIONS TO PERFORM AN ACTION)</string>
     <string name="start_service">Start Service</string>
+    <string name="start_broadcast_receiver">Start Broadcast receiver</string>
+    <string name="start_activity_for_result">Start activity for result</string>
+    <string name="data_activity_for_result">I\'m a data who was sent from ActivityForResult</string>
+    <string name="service_stopped">Service Stopped.</string>
+    <string name="service_running">Service Running (see log)...</string>
+    <string name="intent_activity_extra_data">Hello..!! I\'m any value to be passed through intent</string>
+    <string name="fragments">Fragments</string>
 </resources>

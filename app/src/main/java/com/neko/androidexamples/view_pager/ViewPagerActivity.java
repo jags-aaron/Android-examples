@@ -4,7 +4,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import com.neko.androidexamples.R;
-import com.neko.androidexamples.common.fragments.FisrtFragment;
+import com.neko.androidexamples.common.fragments.FirstFragment;
 import com.neko.androidexamples.common.fragments.SecondFragment;
 import com.neko.androidexamples.common.fragments.ThirdFragment;
 import com.neko.androidexamples.common.pager_animations.ZoomOutPageTransformer;
@@ -24,7 +24,7 @@ public class ViewPagerActivity extends AppCompatActivity {
         // Initializing Pager Adapter
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());
         // Adding Fragments to Pager Adapter
-        pagerAdapter.addFragment(new FisrtFragment());
+        pagerAdapter.addFragment(new FirstFragment());
         pagerAdapter.addFragment(new SecondFragment());
         pagerAdapter.addFragment(new ThirdFragment());
         // setting adapter to pager

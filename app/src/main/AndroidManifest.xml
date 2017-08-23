@@ -58,7 +58,7 @@
 
         <!-- ITENT ACTIVITY -->
         <activity
-            android:name=".intent_and_intentfilters.IntentActivity"
+            android:name=".intents._IntentActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -66,11 +66,13 @@
         </activity>
 
         <service
-            android:name=".intent_and_intentfilters.explicit.MyService"
+            android:name=".services.MyService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".intent_and_intentfilters.explicit.ExplicitActivity"></activity>
+        <activity android:name=".intents.ExplicitActivity" />
+        <activity android:name=".intents.ActivityForResult" />
+        <activity android:name=".fragments.FragmentsActivity"></activity>
     </application>
 
 </manifest>

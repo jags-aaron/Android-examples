@@ -5,7 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.neko.androidexamples.intent_and_intentfilters.IntentActivity;
+import com.neko.androidexamples.fragments.FragmentsActivity;
+import com.neko.androidexamples.intents._IntentActivity;
 import com.neko.androidexamples.list_view.ListViewActivity;
 import com.neko.androidexamples.recycler_view.RecyclerViewActivity;
 import com.neko.androidexamples.view_pager.ViewPagerActivity;
@@ -39,7 +40,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btnIntents:
                 // RECYCLER VIEW
-                startNewActivity(IntentActivity.class);
+                startNewActivity(_IntentActivity.class);
+                break;
+            case R.id.btnFragments:
+                // FRAGMENTS
+                startNewActivity(FragmentsActivity.class);
                 break;
         }
     }
