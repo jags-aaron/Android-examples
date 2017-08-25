@@ -72,7 +72,8 @@
 
         <activity android:name=".intents.ExplicitActivity" />
         <activity android:name=".intents.ActivityForResult" />
-        <activity android:name=".fragments.FragmentsActivity"></activity>
+        <activity android:name=".fragments.FragmentsActivity" />
+        <activity android:name=".http_request.HttpRequestActivity"></activity>
     </application>
 
 </manifest>
